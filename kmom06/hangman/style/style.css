@@ -1,0 +1,84 @@
+body {
+    background-image: url("../img/h.png");
+    background-repeat: no-repeat;
+
+    /*
+    background-size: cover;
+    */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 5%;
+    background-color: radial-gradient(red, yellow, green);
+}
+
+.letterArea {
+    height: 50px;
+}
+
+.resultArea {
+    border-top: 1px solid black;
+    height: 100px;
+}
+
+.letter {
+    float: left;
+
+    /*
+    outline: 1px solid black;
+    */
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.letter:hover {
+    cursor: pointer;
+}
+
+p {
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 25px;
+}
+
+.intsOver {
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 25px;
+    color: red;
+}
+
+.letterCorrect {
+    float: left;
+    outline: 4px solid green;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.nopo {
+    float: left;
+
+    /*
+    outline: 1px solid black;
+    */
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Times New Roman", "Times", serif;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.nopo:hover {
+    cursor: not-allowed;
+}

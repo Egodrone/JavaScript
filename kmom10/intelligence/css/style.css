@@ -1,0 +1,485 @@
+html {
+    background-color: aliceblue;
+    background-image: url("../img/sba.jpeg");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headNav {
+    background-color: #2f4f4f;
+    border-right: 3px solid red;
+    border-left: 100px solid red;
+    font-size: 3.5em;
+    color: aliceblue;
+}
+
+.container {
+    margin: 6%;
+    margin-left: 13%;
+
+    /*
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    */
+}
+
+.welcome {
+    background-color: #b2fff0;
+    color: black;
+    border: 3px solid black;
+    width: 48%;
+    height: 10em;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.welcome:hover {
+    cursor: pointer;
+}
+
+.begin {
+    background-color: green;
+    color: black;
+    border: 3px solid black;
+    width: 40%;
+    height: 3em;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.green {
+    background-color: #62ca6f;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.a01,
+.a02,
+.a03 {
+    border: 2px solid #666;
+    height: 40px;
+    width: 360px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.a00 {
+    border: 2px solid #666;
+    height: 40px;
+    width: 360px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.a00:hover {
+    cursor: pointer;
+}
+
+.a01,
+.a02,
+.a03:hover {
+    cursor: pointer;
+}
+
+.red {
+    background-color: #f75454;
+}
+
+#btn1 {
+    border-radius: 10px;
+    background-color: #a7cacb;
+    color: #666;
+    height: 30px;
+}
+
+#btn1:hover {
+    cursor: pointer;
+}
+
+/**
+Flags
+*/
+
+.flag {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.elfenbenskusten {
+    background-color: white;
+}
+
+.elfenbenskusten .part1 {
+    width: 100px;
+    height: 200px;
+    background-color: #f77f00;
+}
+
+.elfenbenskusten .part2 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 100px;
+    height: 200px;
+    background-color: #009e60;
+}
+
+.flag2 {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+}
+
+.sweden {
+    background-color: #006aa8;
+}
+
+.sweden .part1 {
+    position: absolute;
+    top: 80px;
+    width: 400px;
+    height: 40px;
+    background-color: #fecd00;
+}
+
+.sweden .part2 {
+    position: absolute;
+    left: 100px;
+    width: 40px;
+    height: 200px;
+    background-color: #fecd00;
+}
+
+.flag3 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.ukraine {
+    background-color: #005bbc;
+}
+
+.ukraine .part1 {
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffd600;
+}
+
+.flag4 {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+}
+
+.japan {
+    background-color: white;
+}
+
+.japan .part1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f00;
+    left: 125px;
+    top: 25px;
+}
+
+.flag5 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.poland {
+    background-color: #fff;
+}
+
+.poland .part1 {
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: #dc143c;
+}
+
+.flag6 {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+}
+
+.denmark {
+    background-color: red;
+}
+
+.denmark .part1 {
+    position: absolute;
+    top: 80px;
+    width: 400px;
+    height: 40px;
+    background-color: white;
+}
+
+.denmark .part2 {
+    position: absolute;
+    left: 100px;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+}
+
+.flag7 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.belgium {
+    background-color: yellow;
+}
+
+.belgium .part1 {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+}
+
+.belgium .part2 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+.flag8 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.france {
+    background-color: white;
+}
+
+.france .part1 {
+    width: 100px;
+    height: 200px;
+    background-color: mediumblue;
+}
+
+.france .part2 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+.flag9 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.romania {
+    background-color: yellow;
+}
+
+.romania .part1 {
+    width: 100px;
+    height: 200px;
+    background-color: mediumblue;
+}
+
+.romania .part2 {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+.japanL {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.elfenbenskustenS {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.ukraineS {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+    cursor: pointer;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+    background-color: black;
+}
+
+.polandS {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+    cursor: pointer;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+    background-color: black;
+}
+
+.swedenS {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.denmarkS {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    border: 5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.belgiumS {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.franceS {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}
+
+.romaniaS {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    border: 5px solid white;
+    cursor: pointer;
+
+    /*
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    */
+}

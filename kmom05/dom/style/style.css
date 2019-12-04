@@ -1,0 +1,58 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+
+    /**
+    border: 2px solid black;
+    */
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+}
+
+.green {
+    background-color: green;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.size200 {
+    height: 200px;
+    width: 200px;
+}
+
+.selected {
+    outline: 2px dotted black;
+}
+
+.animateSize {
+    transition: width 1s, height 1s;
+}
+
+.newBox {
+    background-color: orange;
+}
