@@ -10,5 +10,3 @@ $ firefox index.html
 ```
 
 Or open index.html file in your web browser
-
-# test
